@@ -25,7 +25,7 @@ module.exports = {
           'NODE_ENV': JSON.stringify('production')
         }
     }),
-    // add the hot module replacement plugin which "Generates Hot Update Chunks of each chunk in the records. It also enables the API and makes __webpack_hash__ available in the bundle."
+    // minifies and pack up all app's javascript into one file to save memory on server
     new webpack.optimize.UglifyJsPlugin({
     }),
   ],
