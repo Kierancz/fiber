@@ -11,11 +11,68 @@ html, body {
 	padding: 0px;
 	margin: 0px;
 }
+.container {
+	width: 90%;
+}
 #react {
-	position: absolute;
-	top: 0px;
-	left: 0px;
 	padding: 0px;
 	height: 100%;
 	width: 100%;
+	margin-top: 20px;
+}
+.collapsible.popout li {
+	margin: 0px;
+}
+.collapsible-body p {
+	padding: 5px 20px;
+}
+.collapsible-header {
+	margin: 0px;
+}
+#overlay {
+	background-color: rgba(0, 0, 0, 0.5);
+	height: 800px;
+	width: 100%;
+	position: absolute;
+	top: 0;
+}
+#tableCalc {
+	margin-top: 2em;
+	margin-bottom: 2em;
+}
+.parallax-container {
+	height: 350px;
+}
+#instructions {
+	margin-left: 20px;
+	padding-bottom: 16px;
+}
+.tableTrans {
+	background: rgb(40, 40, 40); /* Fallback for older browsers without RGBA-support */
+  background: rgba(40, 40, 40, 0.8);
+}
+#tableFibers {
+	padding-right: 1em;
+	padding-left: 1em;
+	max-height: 560px;
+	overflow-y: auto;
+}
+.section {
+	background-image: url("../images/fiber_bg.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+.orange-text {
+	padding-left: 1em;
+}
+#app {
+	padding-left: 2em;
+	padding-right: 2em;
+}
+#map {
+	opacity: 0.4;
+	filter: alpha(opacity=40); /* For IE8 and earlier */
+}
+#hazard-detail {
+	padding-left: 4em;
 }
